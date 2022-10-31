@@ -15,29 +15,42 @@ The integration between the OS core and MCC is really simple. Essentially the OS
 
 You have to set the following two macros:
 
+```
 /* Frequency of scheduler timer */
 #define SCHED_TIMER_FREQ_HZ                              ((uint16_t)(1000))
 /* Desired scheduler period */
 #define DESIRED_SCHED_PERIOD_MS                          ((uint16_t)(1))
+```
 
 The first one indicates the frequency of the timer interrupt that will drive the OS tick in Hertz, and the second one the desired main scheduler period in ms. Once the timer interrupt is configured and the os configration has been properly aligned, in the timer callback you have to call the following API:
 
+```
 void OS_Tick_Callback (void)
 {
     Os_SchmIntService();
 }
+```
 
 Additionally, you have to call in your main function (after the system initialization done by MCC) the Os_MainScheduler() API, as in the example below:
 
+```
 int main(void)
 {
-    // initialize the device
+    /* initialize the device */
     SYSTEM_Initialize();
     
-    // Start OS
+    /* Start OS */
     Os_MainScheduler();
 
     return 1;
 }
+```
 
 That's it! The scheduler will then run the confgured schedule table and you can use the other OS services in conjuntion with the drivers generated with MCC.
+
+# Samples
+Some samples are provides with a simple task running at 1s and bliking an LED. All the examples have been developed for the Explorer16/32 development board, using MPLAB X 6.0.0 and MCC.
+
+Current samples list:
+- PIC24FJ128GB204
+- PIC24FJ256GB210
