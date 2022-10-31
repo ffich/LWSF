@@ -1,8 +1,7 @@
 /************************************************************************
 *                              OS CFG                        
 *************************************************************************
-* FileName:         os_cfg.h                                   
-* Platform:         Pic32                                               
+* FileName:         os_cfg.h                                                                             
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           

@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS Scheduler                         
 *************************************************************************
-* FileName:         os_sched.c                                   
-* Platform:         Pic32                                               
+* FileName:         os_sched.c                                                                                
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           

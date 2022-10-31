@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS SW Timers                       
 *************************************************************************
-* FileName:         os_timers.h                                   
-* Platform:         Pic32                                               
+* FileName:         os_timers.h                                                                              
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           

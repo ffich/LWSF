@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS Schedule Table                         
 *************************************************************************
-* FileName:         os_sched_tbl.h                                   
-* Platform:         Pic32                                               
+* FileName:         os_sched_tbl.h                                                                           
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           

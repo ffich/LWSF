@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS Schedule Table                         
 *************************************************************************
-* FileName:         os_sched_tbl.c                                   
-* Platform:         Pic32                                               
+* FileName:         os_sched_tbl.c                                                                                
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           
@@ -55,7 +54,7 @@ SchedTblType TaskTable[] =
   /* Task           InitFnc           State          Counter          Timeout  */
   /* ------------------------------------------------------------------------- */   
   /* --------------------------------- Tasks --------------------------------- */   
-  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_200_MS}, 
+  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_1000_MS}, 
   /* ------------------------------------------------------------------------- */
 };
 

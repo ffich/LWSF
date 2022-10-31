@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS Alarms                         
 *************************************************************************
-* FileName:         os_alarms.h                                   
-* Platform:         Pic32                                               
+* FileName:         os_alarms.h                                                                              
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           

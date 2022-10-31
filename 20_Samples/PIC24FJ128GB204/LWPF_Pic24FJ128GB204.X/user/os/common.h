@@ -1,8 +1,7 @@
 /************************************************************************
 *                               Common                         
 *************************************************************************
-* FileName:         common.h                                   
-* Platform:         Pic32                                               
+* FileName:         common.h                                                                                
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           
@@ -56,22 +55,6 @@
 
 #define STD_OK                                           1u
 #define STD_NOT_OK                                       0u
-
-/************************************************************************
-* Hardware Basic Defines
-************************************************************************/
-/* Data direction */
-#define LINE_DIRECTION_INPUT                             1u
-#define LINE_DIRECTION_OUTPUT                            0u
-
-/* Digital state */
-#define LINE_STATE_HIGH                                  1u
-#define LINE_STATE_LOW                                   0u
-
-/************************************************************************
-* Masks
-************************************************************************/
-#define BIT_0_MASK                                       0x0001
 
 #endif	/* COMMON_H */
 

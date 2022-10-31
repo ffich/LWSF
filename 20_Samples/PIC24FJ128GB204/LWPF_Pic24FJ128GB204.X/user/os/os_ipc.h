@@ -1,8 +1,7 @@
 /************************************************************************
 *                               OS IPC                       
 *************************************************************************
-* FileName:         os_ipc.h                                   
-* Platform:         Pic32                                               
+* FileName:         os_ipc.h                                                                                
 * Author:           F.Ficili                                            
 *                                                                       
 * Software License Agreement:                                           
