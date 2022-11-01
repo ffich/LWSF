@@ -1,5 +1,5 @@
 # Description
-LWSF (Light-Weight Software Framework) is, as the name suggests, a lightweight SW Framework for Microchip devices. It's based on a simple non-preemptive OS implementation, copuled with MCHP code generators: MCC Classic, Melody and Harmony.
+LWSF (Light-Weight Software Framework) is, as the name suggests, a lightweight SW Framework for Microchip devices. It's based on a simple non-preemptive OS implementation, copuled with MCHP code generators: MCC Classic, Melody and Harmony (https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator).
 
 # Motivation
 The main motivation behind the realization of LWSF is the needs to have a simple framework to be used for the developmnent of projects with MCHP parts. This includes PIC16, PIC18, PIC24, dsPIC and PIC32, but also AVR and SAM devices. Due its simple implemetation, LWSF is derivative-indipendent, with the HW dependency give essentially by MCC. Nevertheless the FWK is powerfull, as MCC provides the capability of generates drivers for the peripherals, while the os core provides a simple mean for better structuring the SW architecture and provides some basic services not implemented by MCC (virtual timing, alarms, schedule tables and a bit of IPCs). There are no dependencies on the MCC version used, so MCC Classic, Melody and Harmony are all supported. 
