@@ -22,7 +22,9 @@ You have to set the following two macros:
 #define DESIRED_SCHED_PERIOD_MS                          ((uint16_t)(1))
 ```
 
-The first one indicates the frequency of the timer interrupt that will drive the OS tick in Hertz, and the second one the desired main scheduler period in ms. Once the timer interrupt is configured and the os configration has been properly aligned, in the timer callback you have to call the following API:
+The first one indicates the frequency of the timer interrupt that will drive the OS tick in Hertz, and the second one the desired main scheduler period in ms. This files contains also other OS configuration parameters (like the number of OS alarms available in the specific configuration). Refer to specific examples for more information.
+
+Once the timer interrupt is configured and the os configration has been properly aligned, in the timer callback you have to call the following API:
 
 ```
 void OS_Tick_Callback (void)
@@ -31,7 +33,32 @@ void OS_Tick_Callback (void)
 }
 ```
 
-Additionally, you have to call in your main function (after the system initialization done by MCC) the Os_MainScheduler() API, as in the example below:
+# OS Configuration
+Once the OS tick is correctly configured you can go on with the rest of OS configuration. One of the crucial paramter to configure is the task table. This table define all the periodic behavior of LWSF applications. To configure this table you simply need to fill it with your tasks, the corresponding init function and the timout period. Here is the detail of the Task properties to be confgured:
+
+**Task**: is the name of the function that implements the task itself. LWSF expects that you then define an appropriate user function using the TASK() macro in one of your application files (e.g. Task(MyTask). This task will be then run periodcally at the Timout rate.
+**InitFnc**: this it the Task initialization function. It will be called once before the scheduler starts. LWSF expects that you then define an appropriate user function using the SETUP() macro in one of your application files (e.g. SETUP(MyTask_Init). 
+**State**: the initial state of the task. Use the macro TASK_IDLE.
+**Counter**: the initial value of the counter for the task. Use the macro COUNTER_INIT.
+**Timeout**: the period of the task in ms. You can put the integer value that you want, like 1, 5, 1000...etc. Some pre-defined timing macros are provided in the templates.
+
+So a simple task definition would be look like in the snippets below:
+
+```
+/* Schedule Table structure initialization */
+SchedTblType TaskTable[] =
+{
+  /* ------------------------------------ Tasks ------------------------------ */ 
+  /* ------------------------------------------------------------------------- */
+  /* Task           InitFnc           State          Counter          Timeout  */
+  /* ------------------------------------------------------------------------- */   
+  /* --------------------------------- Tasks --------------------------------- */   
+  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_250_MS}, 
+  /* ------------------------------------------------------------------------- */
+};
+```
+# OS Lifecycle
+In order to start the OS, you have to call in your main function (after the system initialization done by MCC) the Os_MainScheduler() API, like in the example below:
 
 ```
 int main(void)
