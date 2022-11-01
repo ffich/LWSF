@@ -55,7 +55,7 @@ SchedTblType TaskTable[] =
   /* Task           InitFnc           State          Counter          Timeout  */
   /* ------------------------------------------------------------------------- */   
   /* --------------------------------- Tasks --------------------------------- */   
-  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_1000_MS}, 
+  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_500_MS}, 
   /* ------------------------------------------------------------------------- */
 };
 
