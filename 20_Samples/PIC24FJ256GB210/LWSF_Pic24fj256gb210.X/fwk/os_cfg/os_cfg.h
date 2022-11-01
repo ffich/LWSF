@@ -46,4 +46,14 @@
 /* Desired scheduler period */
 #define DESIRED_SCHED_PERIOD_MS                          ((uint16_t)(1))
 
+/************************************************************************
+* OS Alarms configuration
+************************************************************************/
+/* Number of Os alarms */
+#define OS_ALARM_NUMBER                                  ((uint8_t)(2))
+
+/* Os Alarm indexes */
+#define ALARM_1                                          ((uint8_t)(1))
+#define ALARM_2                                          ((uint8_t)(2))
+
 #endif /* OS_CFG_H */

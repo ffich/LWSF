@@ -40,6 +40,7 @@
 #define PERIOD_50_MS                                     ((uint16_t)(50))
 #define PERIOD_100_MS                                    ((uint16_t)(100))
 #define PERIOD_200_MS                                    ((uint16_t)(200))
+#define PERIOD_250_MS                                    ((uint16_t)(250))
 #define PERIOD_500_MS                                    ((uint16_t)(500))
 #define PERIOD_1000_MS                                   ((uint16_t)(1000))
 
@@ -55,7 +56,7 @@ SchedTblType TaskTable[] =
   /* Task           InitFnc           State          Counter          Timeout  */
   /* ------------------------------------------------------------------------- */   
   /* --------------------------------- Tasks --------------------------------- */   
-  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_500_MS}, 
+  {MyTask,          MyTask_Init,     TASK_IDLE,     COUNTER_INIT,    PERIOD_250_MS}, 
   /* ------------------------------------------------------------------------- */
 };
 
