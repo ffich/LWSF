@@ -25,6 +25,7 @@
 * Includes
 ************************************************************************/
 #include "app.h"
+#include "uart4.h"
 
 /************************************************************************
 * Defines
@@ -61,11 +62,12 @@
 /* Setup function */
 SETUP(MyTask_Init)
 {
-  /* Do nothing here */
+  U2CTS_SetLow();
 }
 
 /* Periodic task function */
 TASK(MyTask)
 {
   LED_Toggle();
+  printf("Hello World!!!\r\n");
 }

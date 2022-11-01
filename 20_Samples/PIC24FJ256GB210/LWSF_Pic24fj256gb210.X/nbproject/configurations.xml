@@ -17,6 +17,7 @@
         <itemPath>mcc_generated_files/traps.h</itemPath>
         <itemPath>mcc_generated_files/tmr2.h</itemPath>
         <itemPath>mcc_generated_files/mcc.h</itemPath>
+        <itemPath>mcc_generated_files/uart4.h</itemPath>
       </logicalFolder>
       <logicalFolder name="os" displayName="os" projectFiles="true">
         <itemPath>../../../10_Resources/os/common.h</itemPath>
@@ -51,6 +52,7 @@
         <itemPath>mcc_generated_files/interrupt_manager.c</itemPath>
         <itemPath>mcc_generated_files/traps.c</itemPath>
         <itemPath>mcc_generated_files/mcc.c</itemPath>
+        <itemPath>mcc_generated_files/uart4.c</itemPath>
       </logicalFolder>
       <logicalFolder name="os" displayName="os" projectFiles="true">
         <itemPath>../../../10_Resources/os/os.c</itemPath>
