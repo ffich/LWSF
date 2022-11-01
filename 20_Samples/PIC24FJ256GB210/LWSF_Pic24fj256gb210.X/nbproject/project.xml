@@ -17,6 +17,7 @@
                 <sourceRootElem>../../../10_Resources/os</sourceRootElem>
                 <sourceRootElem>fwk/os</sourceRootElem>
                 <sourceRootElem>fwk/app</sourceRootElem>
+                <sourceRootElem>fwk/os_cfg</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

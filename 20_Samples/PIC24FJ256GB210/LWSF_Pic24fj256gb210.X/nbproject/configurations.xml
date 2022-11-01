@@ -25,8 +25,10 @@
         <itemPath>../../../10_Resources/os/os_ipc.h</itemPath>
         <itemPath>../../../10_Resources/os/os_sched_tbl.h</itemPath>
         <itemPath>../../../10_Resources/os/os_timers.h</itemPath>
-        <itemPath>fwk/os/os_cfg.h</itemPath>
-        <itemPath>fwk/os/os_sch_tbl_cfg.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="os_cfg" displayName="os_cfg" projectFiles="true">
+        <itemPath>fwk/os_cfg/os_cfg.h</itemPath>
+        <itemPath>fwk/os_cfg/os_sch_tbl_cfg.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -71,6 +73,7 @@
     <Elem>../../../10_Resources/os</Elem>
     <Elem>fwk/os</Elem>
     <Elem>fwk/app</Elem>
+    <Elem>fwk/os_cfg</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -133,7 +136,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="expand-pragma-config" value="false"/>
         <property key="extra-include-directories"
-                  value="fwk\app;fwk\os;..\..\..\10_Resources\os;mcc_generated_files"/>
+                  value="fwk\app;fwk\os_cfg;mcc_generated_files;..\..\..\10_Resources\os"/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>
@@ -317,8 +320,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-2abf7"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/60_Repositories/R202201_LightweightSwFramework/LWSF/20_Samples/PIC24FJ256GB210/LWSF_Pic24fj256gb210.X/debug/default/LWSF_Pic24fj256gb210_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
