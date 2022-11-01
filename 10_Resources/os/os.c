@@ -24,19 +24,19 @@
 /************************************************************************
 * Includes
 ************************************************************************/
-#include "os.h"
-#include "os_cfg.h"
-#include "os_sched_tbl.h"
 #include "common.h"
+#include "os.h"
+#include "os_sched_tbl.h"
 #include "os_timers.h"
 #include "os_alarms.h"
+#include "os_cfg.h"
 
 /************************************************************************
 * Defines
 ************************************************************************/
 /* Forever define for main while loop */
 #define FOREVER                                          ((uint8_t)(1))
-/* Scheduler counter treshold define */
+/* Scheduler counter threshold define */
 #define SCHED_COUNTER_TH                                 ((SCHED_TIMER_FREQ_HZ*DESIRED_SCHED_PERIOD_MS)/1000)
 
 /************************************************************************

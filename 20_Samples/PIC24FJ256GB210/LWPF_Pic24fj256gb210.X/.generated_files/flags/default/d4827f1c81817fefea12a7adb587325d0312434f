@@ -1,1 +1,0 @@
- -c -mcpu=$(MP_PROCESSOR_OPTION)      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"user/app" -I"user/os" -I"mcc_generated_files" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"D:\60_Repositories\R202201_LightweightSwFramework\20_Samples\PIC24FJ256GB210\LWPF_Pic24fj256gb210.X\mcc_generated_files\clock.c
