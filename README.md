@@ -76,7 +76,7 @@ int main(void)
 That's it! The scheduler will then run the confgured schedule table and you can use the other OS services in conjuntion with the drivers generated with MCC.
 
 # Samples
-Some samples are provides with a simple task running at 1s and bliking an LED. All the examples have been developed for the Explorer16/32 development board, using MPLAB X 6.0.0 and MCC.
+All the examples have been developed for the Explorer16/32 development board, using MPLAB X 6.0.0 and MCC.
 
 Current samples list:
 - LWSF_PIC24FJ256GB210: simple LED blinking demo
