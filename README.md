@@ -46,7 +46,7 @@ Once the OS tick is correctly configured you can go on with the rest of OS confi
 
 **Timeout**: the period of the task in ms. You can put the integer value that you want, like 1, 5, 1000...etc. Some pre-defined timing macros are provided in the templates.
 
-So a simple task definition would be look like in the snippets below:
+So a simple task definition would look like in the snippets below:
 
 ```
 /* Schedule Table structure initialization */
