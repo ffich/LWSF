@@ -37,12 +37,16 @@ void OS_Tick_Callback (void)
 Once the OS tick is correctly configured you can go on with the rest of OS configuration. One of the crucial paramter to configure is the task table, that you can find in the file os_sch_tbl_cfg.h. This table define all the periodic behavior of LWSF applications. To configure this table you simply need to fill it with your tasks, the corresponding init function and the timout period. Here is the detail of the Task properties to be confgured:
 
 **Task**: is the name of the function that implements the task itself. LWSF expects that you then define an appropriate user function using the TASK() macro in one of your application files (e.g. Task(MyTask). This task will be then run periodcally at the Timout rate.
+
 **InitFnc**: this it the Task initialization function. It will be called once before the scheduler starts. LWSF expects that you then define an appropriate user function using the SETUP() macro in one of your application files (e.g. SETUP(MyTask_Init). 
+
 **State**: the initial state of the task. Use the macro TASK_IDLE.
+
 **Counter**: the initial value of the counter for the task. Use the macro COUNTER_INIT.
+
 **Timeout**: the period of the task in ms. You can put the integer value that you want, like 1, 5, 1000...etc. Some pre-defined timing macros are provided in the templates.
 
-So a simple task definition would be look like in the snippets below:
+So a simple task definition would look like in the snippets below:
 
 ```
 /* Schedule Table structure initialization */
