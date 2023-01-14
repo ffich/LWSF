@@ -17,7 +17,7 @@
         <itemPath>mcc_generated_files/traps.h</itemPath>
         <itemPath>mcc_generated_files/tmr2.h</itemPath>
         <itemPath>mcc_generated_files/mcc.h</itemPath>
-        <itemPath>mcc_generated_files/uart4.h</itemPath>
+        <itemPath>mcc_generated_files/uart2.h</itemPath>
       </logicalFolder>
       <logicalFolder name="os" displayName="os" projectFiles="true">
         <itemPath>../../../10_Resources/os/common.h</itemPath>
@@ -52,7 +52,7 @@
         <itemPath>mcc_generated_files/interrupt_manager.c</itemPath>
         <itemPath>mcc_generated_files/traps.c</itemPath>
         <itemPath>mcc_generated_files/mcc.c</itemPath>
-        <itemPath>mcc_generated_files/uart4.c</itemPath>
+        <itemPath>mcc_generated_files/uart2.c</itemPath>
       </logicalFolder>
       <logicalFolder name="os" displayName="os" projectFiles="true">
         <itemPath>../../../10_Resources/os/os.c</itemPath>
@@ -322,6 +322,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-2abf7"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/60_Repositories/R202201_LightweightSwFramework/LWSF/20_Samples/PIC24FJ256GB210/LWSF_Pic24fj256gb210.X/debug/default/LWSF_Pic24fj256gb210_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
@@ -420,6 +422,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-2abf7"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/60_Repositories/R202201_LightweightSwFramework/LWSF/20_Samples/PIC24FJ256GB210/LWSF_Pic24fj256gb210.X/debug/default/LWSF_Pic24fj256gb210_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>

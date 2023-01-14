@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=fwk/app/app.c mcc_generated_files/clock.c mcc_generated_files/tmr2.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/interrupt_manager.c mcc_generated_files/traps.c mcc_generated_files/mcc.c ../../../10_Resources/os/os.c ../../../10_Resources/os/os_alarms.c ../../../10_Resources/os/os_ipc.c ../../../10_Resources/os/os_sched_tbl.c ../../../10_Resources/os/os_timers.c main.c mcc_generated_files/uart4.c
+SOURCEFILES_QUOTED_IF_SPACED=fwk/app/app.c mcc_generated_files/clock.c mcc_generated_files/tmr2.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/interrupt_manager.c mcc_generated_files/traps.c mcc_generated_files/mcc.c mcc_generated_files/uart2.c ../../../10_Resources/os/os.c ../../../10_Resources/os/os_alarms.c ../../../10_Resources/os/os_ipc.c ../../../10_Resources/os/os_sched_tbl.c ../../../10_Resources/os/os_timers.c main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/fwk/app/app.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/tmr2.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/_ext/826229663/os.o ${OBJECTDIR}/_ext/826229663/os_alarms.o ${OBJECTDIR}/_ext/826229663/os_ipc.o ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o ${OBJECTDIR}/_ext/826229663/os_timers.o ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/uart4.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/fwk/app/app.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/tmr2.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/_ext/826229663/os.o.d ${OBJECTDIR}/_ext/826229663/os_alarms.o.d ${OBJECTDIR}/_ext/826229663/os_ipc.o.d ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o.d ${OBJECTDIR}/_ext/826229663/os_timers.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/mcc_generated_files/uart4.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/fwk/app/app.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/tmr2.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/_ext/826229663/os.o ${OBJECTDIR}/_ext/826229663/os_alarms.o ${OBJECTDIR}/_ext/826229663/os_ipc.o ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o ${OBJECTDIR}/_ext/826229663/os_timers.o ${OBJECTDIR}/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/fwk/app/app.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/tmr2.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/uart2.o.d ${OBJECTDIR}/_ext/826229663/os.o.d ${OBJECTDIR}/_ext/826229663/os_alarms.o.d ${OBJECTDIR}/_ext/826229663/os_ipc.o.d ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o.d ${OBJECTDIR}/_ext/826229663/os_timers.o.d ${OBJECTDIR}/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/fwk/app/app.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/tmr2.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/_ext/826229663/os.o ${OBJECTDIR}/_ext/826229663/os_alarms.o ${OBJECTDIR}/_ext/826229663/os_ipc.o ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o ${OBJECTDIR}/_ext/826229663/os_timers.o ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/uart4.o
+OBJECTFILES=${OBJECTDIR}/fwk/app/app.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/tmr2.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/uart2.o ${OBJECTDIR}/_ext/826229663/os.o ${OBJECTDIR}/_ext/826229663/os_alarms.o ${OBJECTDIR}/_ext/826229663/os_ipc.o ${OBJECTDIR}/_ext/826229663/os_sched_tbl.o ${OBJECTDIR}/_ext/826229663/os_timers.o ${OBJECTDIR}/main.o
 
 # Source Files
-SOURCEFILES=fwk/app/app.c mcc_generated_files/clock.c mcc_generated_files/tmr2.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/interrupt_manager.c mcc_generated_files/traps.c mcc_generated_files/mcc.c ../../../10_Resources/os/os.c ../../../10_Resources/os/os_alarms.c ../../../10_Resources/os/os_ipc.c ../../../10_Resources/os/os_sched_tbl.c ../../../10_Resources/os/os_timers.c main.c mcc_generated_files/uart4.c
+SOURCEFILES=fwk/app/app.c mcc_generated_files/clock.c mcc_generated_files/tmr2.c mcc_generated_files/pin_manager.c mcc_generated_files/system.c mcc_generated_files/interrupt_manager.c mcc_generated_files/traps.c mcc_generated_files/mcc.c mcc_generated_files/uart2.c ../../../10_Resources/os/os.c ../../../10_Resources/os/os_alarms.c ../../../10_Resources/os/os_ipc.c ../../../10_Resources/os/os_sched_tbl.c ../../../10_Resources/os/os_timers.c main.c
 
 
 
@@ -143,6 +143,12 @@ ${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_fi
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/mcc.c  -o ${OBJECTDIR}/mcc_generated_files/mcc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
+${OBJECTDIR}/mcc_generated_files/uart2.o: mcc_generated_files/uart2.c  .generated_files/flags/default/31eb97d26ad4fd8592f39235f000556de17ac06d .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/uart2.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/uart2.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/uart2.c  -o ${OBJECTDIR}/mcc_generated_files/uart2.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart2.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
 ${OBJECTDIR}/_ext/826229663/os.o: ../../../10_Resources/os/os.c  .generated_files/flags/default/4a8f645f50b40b7e8c148a15cc89ff2474ec1fc .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
 	@${MKDIR} "${OBJECTDIR}/_ext/826229663" 
 	@${RM} ${OBJECTDIR}/_ext/826229663/os.o.d 
@@ -178,12 +184,6 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/351bb2d609c55063dcfc
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/mcc_generated_files/uart4.o: mcc_generated_files/uart4.c  .generated_files/flags/default/3866ea15823553b09e716dc6c2d7cf767d56a398 .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/uart4.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/uart4.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/uart4.c  -o ${OBJECTDIR}/mcc_generated_files/uart4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart4.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 else
 ${OBJECTDIR}/fwk/app/app.o: fwk/app/app.c  .generated_files/flags/default/1d421b6eae2124a8da06a049426f47f385c39aff .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
@@ -234,6 +234,12 @@ ${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_fi
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/mcc.c  -o ${OBJECTDIR}/mcc_generated_files/mcc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
+${OBJECTDIR}/mcc_generated_files/uart2.o: mcc_generated_files/uart2.c  .generated_files/flags/default/530a47887b0506501cd85fea9007bfe8f4f69ca1 .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/uart2.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/uart2.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/uart2.c  -o ${OBJECTDIR}/mcc_generated_files/uart2.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart2.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
 ${OBJECTDIR}/_ext/826229663/os.o: ../../../10_Resources/os/os.c  .generated_files/flags/default/e8f5546867b51f8b4cf2aabc2fa3626e035e05 .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
 	@${MKDIR} "${OBJECTDIR}/_ext/826229663" 
 	@${RM} ${OBJECTDIR}/_ext/826229663/os.o.d 
@@ -269,12 +275,6 @@ ${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/e16e3938b9ef1793cf65
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/mcc_generated_files/uart4.o: mcc_generated_files/uart4.c  .generated_files/flags/default/cb60e9cb7660075ef5e303cb62f6912e532f972f .generated_files/flags/default/ab8ebeae8ac99e7474cce51345fb35f25df71eb3
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/uart4.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/uart4.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/uart4.c  -o ${OBJECTDIR}/mcc_generated_files/uart4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart4.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -I"fwk/app" -I"fwk/os_cfg" -I"mcc_generated_files" -I"../../../10_Resources/os" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 endif
 

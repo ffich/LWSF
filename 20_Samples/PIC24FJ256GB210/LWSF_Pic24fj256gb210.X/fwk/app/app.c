@@ -25,7 +25,8 @@
 * Includes
 ************************************************************************/
 #include "app.h"
-#include "uart4.h"
+#include "uart2.h"
+#include "stdio.h"
 
 /************************************************************************
 * Defines
@@ -62,7 +63,7 @@
 /* Setup function */
 SETUP(MyTask_Init)
 {
-  U2CTS_SetLow();
+
 }
 
 /* Periodic task function */
